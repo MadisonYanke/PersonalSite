@@ -5,11 +5,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { JournalComponent } from './components/journal/journal.component';
 import { JournalPostModule } from './components/journal/journal-post/journal-post.component';
+import { ProfileComponent } from './components/profile/profile.component';
+import { SocialButtonsComponent } from './components/social-buttons/social-buttons.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    JournalComponent
+    JournalComponent,
+    ProfileComponent,
+    SocialButtonsComponent
   ],
   imports: [
     BrowserModule,

@@ -1,5 +1,5 @@
 <journal-post>
     <journal-title>{{jpost.title}}</journal-title>
     <journal-post>{{jpost.post}}</journal-post>
-    <journal-meta>{{jpost.date}}</journal-meta>
+    <journal-meta>{{jpost.date | date :'mediumDate'}}</journal-meta><!--Sending relevant data with meta is probably a good idea, author, date, time, etc and display only the pieces given-->
 </journal-post>
