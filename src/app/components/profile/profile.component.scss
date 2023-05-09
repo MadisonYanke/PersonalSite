@@ -2,8 +2,18 @@ img {
     border-radius: 100%;
 }
 
+h1 {
+    color: var(--heading-color);
+    font-size: 48px;
+    font-weight: 1000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 #profile-container {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    background: var(--secondary-background-color);
+    padding: 2vh;
+    height: 100%;
 }
