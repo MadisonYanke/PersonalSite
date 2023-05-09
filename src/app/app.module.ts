@@ -7,6 +7,8 @@ import { JournalComponent } from './components/journal/journal.component';
 import { JournalPostModule } from './components/journal/journal-post/journal-post.component';
 import { ProfileComponent } from './components/profile/profile.component';
 import { SocialButtonsComponent } from './components/social-buttons/social-buttons.component';
+import { SpotifyApiService } from './spotify/services/spotify-api.service';
+import { SpotifyModule } from './spotify/spotify.module';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,8 @@ import { SocialButtonsComponent } from './components/social-buttons/social-butto
   imports: [
     BrowserModule,
     AppRoutingModule,
-    JournalPostModule
+    JournalPostModule,
+    SpotifyModule
   ],
   providers: [],
   bootstrap: [AppComponent]
